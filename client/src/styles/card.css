@@ -1,0 +1,18 @@
+.card>img{
+    border-radius: 20px 20px 0px 0px;
+}
+
+.card{
+    background-color: #767070;
+    border-radius: 20px;
+}
+
+.card>figcaption{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    height: 60px;
+}

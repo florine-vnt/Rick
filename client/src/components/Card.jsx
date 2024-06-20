@@ -1,11 +1,14 @@
 import "../styles/card.css"
+import { NavLink } from "react-router-dom";
 
-function Card (){
+function Card ({image, name, id}){
     return (
+        <NavLink to={`/detail/${id}`} className="link-style">
         <figure className="card">
-        <img src="https://rickandmortyapi.com/api/character/avatar/1.jpeg" alt="Rick Sanchez" />
-        <figcaption>Rick Sanchez</figcaption>
+        <img src={image} alt="Rick & Morty charachter" />
+        <figcaption>{name}</figcaption>
         </figure>
+        </NavLink>
     )
 }
 

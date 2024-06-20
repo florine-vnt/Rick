@@ -18,6 +18,7 @@
     height: 40px;
 }
 
-.homepage>div{
-    display: flex;
+.homepage>div>ul{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
 }

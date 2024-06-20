@@ -1,0 +1,27 @@
+.detail-page{
+    margin:0;
+    background-color: #3C3C3C;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    /* flex-direction: column; */
+}
+
+.detail-page>img{
+    border-radius: 20px;
+}
+
+.detail-page>section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-family:Arial, Helvetica, sans-serif
+}
+
+.detail-page>section>figcaption>h1{
+    color:white;
+}
+
+.detail-page>section>figcaption>p{
+    color:grey;
+}

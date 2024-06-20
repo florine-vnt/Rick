@@ -1,8 +1,14 @@
-# React + Vite
+# Rick & Morty
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
 
-Currently, two official plugins are available:
+Site sur les personnages de Rick & Morty permettant de mettre en application les grands principes de React.
+Projet réalisé seule sur mon temps libre.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+## Fonctionnalités
+
+- Fetch d'une API sur Rock & Morty
+- Recherche possible sur une vingtaine de personnages
+- Card détaillée par personnage
+- Toggle dark/light mode enb cours
